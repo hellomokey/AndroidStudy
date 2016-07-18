@@ -21,6 +21,11 @@ public class MyService extends Service {
             public void basicTypes(int anInt, long aLong, boolean aBoolean, float aFloat, double aDouble, String aString) throws RemoteException {
 
             }
+
+            @Override
+            public void setData(String data) throws RemoteException {
+                MyService.this.data = data;
+            }
         };
     }
     public class Binder extends android.os.Binder{

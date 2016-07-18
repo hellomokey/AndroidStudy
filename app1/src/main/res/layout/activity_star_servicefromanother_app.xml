@@ -47,4 +47,15 @@
         tools:layout_editor_absoluteY="340dp"
         android:id="@+id/buttonUnbindService"
         tools:ignore="MissingConstraints" />
+    <EditText
+        android:text="another app"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etapp1"/>
+
+    <Button
+        android:text="sync data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSyncData"/>
 </LinearLayout>
