@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_star_servicefromanother_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.app1.starServicefromanotherApp">
+
+    <Button
+        android:text="Start Service"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:id="@+id/buttonStartService"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_star_servicefromanother_app"
+        android:layout_marginStart="24dp"
+        app:layout_constraintTop_toTopOf="@+id/activity_star_servicefromanother_app"
+        android:layout_marginTop="88dp" />
+
+    <Button
+        android:text="Stop Service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="166dp"
+        android:id="@+id/buttonStopService"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonStartService"
+        app:layout_constraintRight_toRightOf="@+id/buttonStartService" />
+
+    <Button
+        android:text="Bind Service"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:id="@+id/buttonBindService"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonStopService"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStopService"
+        android:layout_marginTop="32dp"
+        app:layout_constraintRight_toRightOf="@+id/buttonStopService" />
+
+    <Button
+        android:text="Unbind Service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="340dp"
+        android:id="@+id/buttonUnbindService"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

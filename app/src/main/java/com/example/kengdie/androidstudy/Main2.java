@@ -1,14 +1,16 @@
 package com.example.kengdie.androidstudy;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+/**
+ * Created by kengdie on 2016/7/18.
+ */
 
+public class Main2 extends Activity {
     private TextView tv;
     private EditText et;
 
